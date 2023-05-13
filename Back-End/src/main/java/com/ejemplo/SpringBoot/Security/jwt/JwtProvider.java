@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.portfolio.te.Security.jwt;
+package com.ejemplo.SpringBoot.Security.jwt;
 
 import com.ejemplo.SpringBoot.Security.Entity.UsuarioPrincipal;
 import io.jsonwebtoken.ExpiredJwtException;
