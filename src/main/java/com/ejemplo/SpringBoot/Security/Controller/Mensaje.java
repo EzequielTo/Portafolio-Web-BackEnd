@@ -5,29 +5,23 @@
  */
 package com.ejemplo.SpringBoot.Security.Controller;
 
-/**
- *
- * @author Usuario
- */
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter
 public class Mensaje {
     private String mensaje;
-    
-    //Constructor
 
+    //constuctor vacio
     public Mensaje() {
     }
-
+    //constructor con parametros
     public Mensaje(String mensaje) {
         this.mensaje = mensaje;
     }
-    //Getter y Setter
 
-    public String getMensaje() {
-        return mensaje;
-    }
+   
 
-    public void setMensaje(String mensaje) {
-        this.mensaje = mensaje;
-    }
+    
     
 }
