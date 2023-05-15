@@ -1,6 +1,5 @@
 package com.ejemplo.SpringBoot.Security;
 
-import com.ejemplo.SpringBoot.Security.Service.UserDetailsImpl;
 import com.ejemplo.SpringBoot.Security.jwt.JwtEntryPoint;
 import com.ejemplo.SpringBoot.Security.jwt.JwtTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,8 +21,6 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class MainSecurity {
-    @Autowired
-    UserDetailsImpl userDetailsServiceImpl;
 
     @Autowired
     JwtEntryPoint jwtEntryPoint;
